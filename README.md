@@ -15,10 +15,8 @@ Based on these patterns, it classifies the candidate as "Genuine" or "AI-Assiste
 ## Technologies Used
 
 - **Python** - Programming language
-- **PyTorch** - Deep learning framework
 - **OpenCV** - Video processing
 - **MediaPipe** - Face detection
-- **DeepFace** - Emotion recognition
 - **Scikit-learn** - Machine learning models
 - **Streamlit** - Web interface
 
@@ -64,20 +62,3 @@ streamlit run app.py
 ├── requirements.txt           # Python dependencies
 └── README.md
 ```
-
-## How It Works
-
-1. **Video Input** - Upload a video file
-2. **Feature Extraction** - Analyze facial features, emotions, eye movement
-3. **Model Prediction** - ML model classifies the video
-4. **Output** - Shows if candidate is "Genuine" or "AI-Assisted" with confidence
-
-## Performance
-
-- Accuracy: 91%+
-- Works with MP4, AVI, MOV video formats
-- Real-time analysis with webcam support
-
-## License
-
-MIT License
